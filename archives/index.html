@@ -59,7 +59,7 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.2"></head>
+<meta name="generator" content="Hexo 5.4.2"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -126,25 +126,11 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/about" class="waves-effect waves-light">
-
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
-    <ul class="sub-nav menus_item_child ">
-      
-      <li>
-        <a href="/galleries">
-          
-          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>Galleries</span>
-        </a>
-      </li>
-      
-    </ul>
     
   </li>
   
@@ -155,6 +141,17 @@
       <i class="fas fa-comments" style="zoom: 0.6;"></i>
       
       <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/gallery" class="waves-effect waves-light">
+      
+      <i class="fas fa-image" style="zoom: 0.6;"></i>
+      
+      <span>相册</span>
     </a>
     
   </li>
@@ -245,26 +242,12 @@
         
         <li class="m-nav-item">
 	  
-		<a href="javascript:;">
+		<a href="/about" class="waves-effect waves-light">
 			
-				<i class="fa-fw fas fa-user-circle"></i>
+			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
-
-                  <a href="/galleries " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
-			      
-		          <span>Galleries</span>
-                  </a>
-                </li>
-              
-            </ul>
           
         </li>
         
@@ -275,6 +258,17 @@
 			    <i class="fa-fw fas fa-comments"></i>
 			
 			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/gallery" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-image"></i>
+			
+			相册
 		</a>
           
         </li>
@@ -372,7 +366,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                越来越好~
+                欢迎光临~
                 
             </div>
 
@@ -384,7 +378,7 @@
                     var typed = new Typed("#subtitle", {
                         strings: [ 
                             
-                                "无论以后如何，我都希望你过的好。",
+                                "无论以后如何，我都希望你好。",
                             
                                 "相逢且莫推辞醉，听唱阳关第四声。",
                             
@@ -554,7 +548,7 @@
                                 <span class="publish-author">
                                     
                                     <i class="fas fa-user fa-fw"></i>
-                                    JWD
+                                    JIAO
                                     
                                 </span>
                             </div>
@@ -638,13 +632,13 @@
             
                 <span id="year">2022</span>
             
-            <a href="/about" target="_blank">JWD</a>
+            <a href="/about" target="_blank">JIAO</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">75</span>
+                        class="white-color">73</span>
             
             
             
@@ -695,10 +689,6 @@
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>
@@ -940,7 +930,16 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+     
+      <!-- 动态标题 -->
+      <script type="text/javascript"> var OriginTitile = document.title, st; 
+        document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(っ °Д °;)っ休走！", clearTimeout(st)) : (document.title = "φ(゜▽゜*)♪你好呀！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) </script>
+        
+      <!-- 鼠标点击特效  富强民主文明 -->
+      <script src="/js/click_show_text.js"></script>
 
-</body>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
 
 </html>
